@@ -1,68 +1,80 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "image" : "images/projects/spacestation.png",
+            "title": "SpaceStation - Web Develop",
+            "bodyText": "- 리엑트와 타입스크립트로 만든 웹 프로젝트\n - 가구를 판매하는 '오늘의 집'앱과 인스타 그램을 병합하여 제작.\n - 엘리스 마지막 프로젝트 수상작",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
+                    "href": "https://github.com/seoseulbin/spaceStation"
                 },
                 {
                     "text": "Live",
-                    "href": "https://mayankagarwal.me"
+                    "href": "http://kdt-sw-7-team03.elicecoding.com/"
                 }
             ],
+            "videoUrl": "images/projects/spaceStation.mp4",
             "tags" : [
                 "React",
-                "Portfolio",
-                "JavaScript"
+                "TypeScript",
+                "JavaScript",
+                "styled-components",
+                "full-stack",
+                "mongoDB",
+                "express.Js",
+                "node.js",
+                "2023"
             ]
         },
         {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
+            "image" : "images/projects/everydayParty.png",
+            "title": "EverydayParty - Web develop",
+            "bodyText": "- 파티용품을 파는 웹이며 첫 웹 프로젝트로 전체적인 기획과 백엔트 역할을 맡음.\n - REST API 제작후 스키마와 hooks등 코드를 제작하여 서버쪽을 관리함.\n - mongoose와 express.js 사용하여 제작함.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
-                },
-                {
-                    "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
+                    "href": "https://github.com/seoseulbin/everydayParty"
                 }
             ],
             "tags" : [
-                "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
+                "Vanilla JS",
+                "mongoDB",
+                "express.Js",
+                "backend",
+                "node.js",
+                "2023"
             ]
         },
+        
         {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
+            "image" : "images/projects/neon.png",
+            "title": "Neon - Game Develope",
             "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
+                    "href": "https://github.com/seoseulbin/timeless"
+                },
+                {
+                    "text": "Link",
+                    "href": "/neon/neon.html",
+                    "target": "_blanck"
                 }
             ],
             "tags" : [
-                "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
+                "c++",
+                "neon game",
+                "design",
+                "animation",
+                "idea",
+                "TeamProject",
+                "2022 - 2023"
             ]
         },
         {
-            "title": "Secure Chat App",
+            "image": "images/projects/multipleLight.png",
+            "title": "Graphic - multiple lights",
             "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
             "links": [
                 {
@@ -71,34 +83,33 @@
                 }
             ],
             "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
+                "Graphic",
+                "OpenGL",
+                "c++",
+                "TeamProject",
+                "2023"
             ]
         },
         {
-            "title": "MVVM Sample App",
+            "image": "images/projects/kangkang.png",
+            "title": "kangkang - Game Develop",
             "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
+                    "href": "https://github.com/seoseulbin/KangKang"
                 }
             ],
             "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
+                "c++",
+                "developed Game Engine",
+                "three mini games",
+                "2022"
             ]
         },
         {
-            "title": "Feed List App",
+            "image": "images/projects/variables.png",
+            "title": "Variables",
             "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
             "links": [
                 {
@@ -107,15 +118,16 @@
                 }
             ],
             "tags" : [
-                "Kotlin",
-                "Android",
+                "c++",
+                "story game",
                 "MVVM",
                 "Paging 3",
                 "Coroutines",
-                "Flow"
+                "2022"
             ]
         },
         {
+            "image": "images/projects/popgame.png",
             "title": "Task Tracker",
             "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
             "links": [
@@ -128,22 +140,6 @@
                 "TypeScript",
                 "Angular 12",
                 "JavaScript"
-            ]
-        },
-        {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
             ]
         }
     ]

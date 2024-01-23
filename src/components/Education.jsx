@@ -21,7 +21,14 @@ function Education(props) {
       method: 'GET',
     })
       .then((res) => res.json())
-      .then((res) => setData(res))
+      .then((res) => {
+        // Process the data to replace newline characters
+        const processedData = res.education.map((entry) => ({
+          ...entry,
+          cardDetailedText: entry.cardDetailedText.replace(/\\n/g, '\n'),
+        }));
+        setData({ ...res, education: processedData });
+      })
       .catch((err) => err);
 
     if (window?.innerWidth < 576) {
@@ -35,7 +42,7 @@ function Education(props) {
     } else if (window?.innerWidth >= 768 && window?.innerWidth < 1024) {
       setWidth('75vw');
     } else {
-      setWidth('50vw');
+      setWidth('70vw');
     }
   }, []);
 
@@ -51,14 +58,14 @@ function Education(props) {
                 allowDynamicUpdate
                 useReadMore={false}
                 items={data.education}
-                cardHeight={250}
+                cardHeight={300}
                 mode={mode}
                 theme={{
                   primary: theme.accentColor,
-                  secondary: theme.accentColor,
+                  secondary: theme.cardHeight,
                   cardBgColor: theme.chronoTheme.cardBgColor,
                   cardForeColor: theme.chronoTheme.cardForeColor,
-                  titleColor: theme.chronoTheme.titleColor,
+                  titleColor: theme.cardHeight,
                 }}
               >
                 <div className="chrono-icons">

@@ -24,6 +24,10 @@
             "component": "Projects",
             "path": "/projects",
             "headerTitle": "Projects"
+        },
+        {
+            "component": "../../neon/neon.html",
+            "path": "/neon"
         }
     ]
 }

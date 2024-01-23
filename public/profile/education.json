@@ -1,19 +1,23 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
+            "title": "Sep 2023 - Dec 2023",
+            "cardTitle": "Elice Track",
+            "cardSubtitle":"Relevant Coursework SW Engineer 7th completion",
+            "cardDetailedText":"<Relevant Coursework>\n - Applying TypeScript to React\n - Implementing asynchronous programming techniques\n - Working with REST APIs\n - Collaborating on two team projects\n - Elice SW 7th Engineer Final Project Grand Prize\n",
             "icon" : {
-                "src": "images/education/lorem-ipsum.png"
+                "src": "images/education/elice2.jpg"
             }
         },
         {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "title": "March 2021 - Jun 2023",
+            "cardTitle": "KEIMYONG UNIVERSITY",
+            "cardSubtitle": "BSCS RTIS",
+            "cardDetailedText":"<Relevant Coursework>\n - Data Structures\n - Computer Graphics\n - Operating System\n - Algorithm Analysis",
+            "icon" : {
+                "src": "images/education/km.svg"
+            }
         }
+        
     ]
 }

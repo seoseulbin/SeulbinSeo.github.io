@@ -8,6 +8,7 @@ import FallbackSpinner from './FallbackSpinner';
 const styles = {
   nameStyle: {
     fontSize: '5em',
+    fontWeight: 600,
   },
   inlineChild: {
     display: 'inline-block',
@@ -37,7 +38,7 @@ function Home() {
     <Fade>
       <div style={styles.mainContainer}>
         <h1 style={styles.nameStyle}>{data?.name}</h1>
-        <div style={{ flexDirection: 'row' }}>
+        <div style={{ flexDirection: 'row', borderBottom: '2px solid' }}>
           <h2 style={styles.inlineChild}>I&apos;m&nbsp;</h2>
           <Typewriter
             options={{
