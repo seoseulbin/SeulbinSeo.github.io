@@ -2,27 +2,27 @@
     "sections": [
         {
             "component": "About",
-            "path": "/about",
+            "path": "./about",
             "headerTitle": "About"
         },
         {
             "component": "Skills",
-            "path": "/skills",
+            "path": "./skills",
             "headerTitle": "Skills"
         },
         {
             "component": "Education",
-            "path": "/education",
+            "path": "./education",
             "headerTitle": "Education"
         },
         {
             "component": "Experience",
-            "path": "/experience",
+            "path": "./experience",
             "headerTitle": "Experience"
         },
         {
             "component": "Projects",
-            "path": "/projects",
+            "path": "./projects",
             "headerTitle": "Projects"
         }
                       
