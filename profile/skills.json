@@ -1,0 +1,103 @@
+{
+    "intro": "",
+    "skills": [{
+     
+            "title": "Languages & Databases",
+            "items" : [
+                {
+                    "icon": "images/skills/c-plus-plus.svg",
+                    "title": "C++"
+                },
+                {
+                    "icon": "images/skills/js.png",
+                    "title": "JavaScript"
+                },
+                {
+                    "icon": "images/skills/react.png",
+                    "title": "React"
+                },
+                {
+                    "icon": "images/skills/typescript.png",
+                    "title": "TypeScript"
+                },
+                {
+                    "icon": "images/skills/html.png",
+                    "title": "HTML"
+                },
+                {
+                    "icon": "images/skills/css.png",
+                    "title": "css"
+                },
+                {
+                    "icon": "images/skills/nodejs.png",
+                    "title": "Nodejs"
+                },
+                {
+                    "icon": "images/skills/java.png",
+                    "title": "java"
+                },
+                {
+                    "icon": "images/skills/git.png",
+                    "title": "MongoDB"
+                },
+                {
+                    "icon": "images/skills/nestjs-svgrepo-com.svg",
+                    "title": "express.js"
+                }
+        ]},
+        {
+            "title": "Engines",
+            "items" : [
+                {
+                    "icon": "images/skills/unity.svg",
+                    "title": "unity"
+                },
+                {
+                    "icon": "images/skills/unreal.svg",
+                    "title": "UNREAL"
+                },
+                {
+                    "icon": "images/skills/opengl.svg",
+                    "title": "OpenGL"
+                }
+            ]
+        },
+        {
+            "title" : "Tools & Platforms",
+            "items": [
+                {
+                    "icon": "images/skills/github.svg",
+                    "title": "Github"
+                },
+                {
+                    "icon": "images/skills/gitlab.svg",
+                    "title": "Gitlab"
+                },
+                {
+                    "icon": "images/skills/git.png",
+                    "title": "Git"
+                },
+                {
+                    "icon": "images/skills/visual-studio-code-1.svg",
+                    "title": "VS Code"
+                },
+                {
+                    "icon": "images/skills/visual-studio.svg",
+                    "title": "VS"
+                },
+                
+                {
+                    "icon": "images/skills/postman.svg",
+                    "title": "Postman"
+                },
+                {
+                    "icon": "images/skills/figma.svg",
+                    "title": "Figma"
+                },
+                {
+                    "icon": "images/skills/notion.svg",
+                    "title": "Notion"
+                }
+            ]
+    }
+]}
